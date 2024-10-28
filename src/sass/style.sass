@@ -11,12 +11,12 @@ html
 
 body
     font-family: 'Rubik', sans-serif
-    background-image: url("assets/images/pattern-background-mobile-light.svg")
+    background-image: url("/assets/images/pattern-background-mobile-light.svg")
     background-repeat: no-repeat
     background-color: #F4F6FA
     min-height: 100%
 body.dark
-    background-image: url("assets/images/pattern-background-mobile-dark.svg")
+    background-image: url("/assets/images/pattern-background-mobile-dark.svg")
 
 .container
     margin: 26px 24px
@@ -232,7 +232,7 @@ body.dark
                 background-color: variables.$green
                 color: variables.$white
             &:before
-                background-image: url('assets/images/icon-correct.svg')
+                background-image: url('/assets/images/icon-correct.svg')
                 background-position: center
                 background-size: cover
                 opacity: 1
@@ -241,7 +241,7 @@ body.dark
             border-color: variables.$red
             position: relative
             &:before
-                background-image: url('assets/images/icon-incorrect.svg')
+                background-image: url('/assets/images/icon-incorrect.svg')
                 background-position: center
                 background-size: cover
                 opacity: 1
@@ -258,7 +258,7 @@ body.dark
         right: 16px
         width: 24px
         height: 24px
-        background-image: url('assets/images/icon-correct.svg')
+        background-image: url('/assets/images/icon-correct.svg')
         background-position: center
         background-size: cover
         opacity: 1
@@ -327,10 +327,10 @@ body.dark
         flex-direction: column
         justify-content: center
         align-items: center
-        background-image: url('assets/images/pattern-background-tablet-light.svg')
+        background-image: url('/assets/images/pattern-background-tablet-light.svg')
 
     body.dark
-        background-image: url("assets/images/pattern-background-tablet-dark.svg")
+        background-image: url("/assets/images/pattern-background-tablet-dark.svg")
 
     .app
         max-width: 640px
@@ -416,11 +416,11 @@ body.dark
 
 @media screen and (min-width: 1024px)
     body
-        background-image: url("assets/images/pattern-background-desktop-light.svg")
+        background-image: url("/assets/images/pattern-background-desktop-light.svg")
         background-position: center
 
     body.dark
-        background-image: url("assets/images/pattern-background-desktop-dark.svg")
+        background-image: url("/assets/images/pattern-background-desktop-dark.svg")
 
 
     .app
