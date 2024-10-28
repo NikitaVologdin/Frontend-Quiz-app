@@ -39,7 +39,7 @@ export default function Introduction({
       <div className="introduction__options options">
         {categories.map((s, i) => (
           <button key={i} onClick={clickHandler} className="options__item item">
-            <div
+            <span
               className="item__icon"
               style={{
                 backgroundColor: `${
@@ -48,7 +48,7 @@ export default function Introduction({
               }}
             >
               <img src={s.icon} width={40} height={40} alt={""} />
-            </div>
+            </span>
             {s.title}
           </button>
         ))}

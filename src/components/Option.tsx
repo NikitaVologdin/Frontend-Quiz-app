@@ -40,7 +40,7 @@ export default function Option({
       className={`options__item item ${selectedClasses} ${pickedCorrectlyClasses} ${pickedWronglyClasses} ${wasCorrect}`}
       onClick={clickHandler}
     >
-      <div className="options__icon question__icon">{variants[index]}</div>
+      <span className="options__icon question__icon">{variants[index]}</span>
       {title}
     </button>
   );
